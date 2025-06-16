@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 function Navbar() {
     return(
         <div>
@@ -12,9 +13,9 @@ function Navbar() {
             <li>Marketplace</li>
             <li>Rankings</li>
             <li>Connect a wallet</li>
-            <li>
+            <Link to='/signup'>
               <button className="bg-[#A259FF] h-10 w-20 rounded-3xl flex w-30 items-center pl-5"> <img src="public/Images/User.png" className="h-5" alt="" />sign up</button>
-            </li>
+            </Link>
           </ul>
         </div>
       </nav>
