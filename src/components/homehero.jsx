@@ -1,6 +1,6 @@
 import React from 'react'
 
- function homehero() {
+ function Homehero() {
   return (
     <div className='flex mt-15 px-35 justify-between pb-15'>
         <div className='text-white'>
@@ -31,4 +31,4 @@ import React from 'react'
     </div>
   )
 }
-export default homehero;
+export default Homehero;

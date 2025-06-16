@@ -1,12 +1,11 @@
 import React from 'react'
-
- function Navbar() {
-  return (
-    <div>
+import { Link } from 'react-router-dom'
+function Navbar() {
+    return(
         <div>
                 <nav className="bg-[#2B2B2B] text-white flex justify-between items-center h-20 px-15">
         <div className="flex gap-2 w-50">
-          <img src="/Storefront.png" alt="" />
+          <img src="public/Images/Storefront.png" alt="" />
           <p className="pt-1.5">NFT Marketplace</p>
         </div>
         <div>
@@ -14,15 +13,15 @@ import React from 'react'
             <li>Marketplace</li>
             <li>Rankings</li>
             <li>Connect a wallet</li>
-            <li>
-              <button className="bg-purple-700 h-10 w-20 rounded-3xl flex w-30 items-center pl-7"> <img src="/User.png" className="h-5" alt="" />sign up</button>
-            </li>
+            <Link to='/signup'>
+              <button className="bg-[#A259FF] h-10 w-20 rounded-3xl flex w-30 items-center pl-5"> <img src="public/Images/User.png" className="h-5" alt="" />sign up</button>
+            </Link>
           </ul>
         </div>
       </nav>
-        </div>
-    </div>
-  )
+        </div>
+
+    )
 }
 
-export default Navbar;
+export default Navbar
