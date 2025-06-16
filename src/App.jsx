@@ -1,8 +1,10 @@
-
-import React from 'react'
+import React from "react";
+import Homepage from "./Pages/Home";
 
 export default function App() {
   return (
-    <div>This is a change</div>
-  )
+    <div>
+      <Homepage/>
+    </div>
+  );
 }
