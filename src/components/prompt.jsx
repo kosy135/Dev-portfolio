@@ -17,7 +17,7 @@ function prompt() {
             >
                 <img src={step.img} alt="" />
                 <h4 className='font-bold pb-1'>{step.CTA}</h4>
-                <p className='text-sm'>{step.instrctions}</p>
+                <p className='text-sm pb-5'>{step.instrctions}</p>
             </div>
         ))}
     </div>

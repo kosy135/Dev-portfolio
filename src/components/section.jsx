@@ -2,15 +2,17 @@ import React from 'react'
 import Cards from '../components/cards'
 import Bigcards from '../components/bigcards'
 import Prompt from '../components/prompt'
+import Branch from './branch'
 
 
 function section() {
   return (
-  <div className='px-35 text-white'>
-     <div><h3 className='font-bold text-2xl pb-3'>Trending Collection</h3>
+  <div className='text-white'>
+     <div className='px-35'>
+      <h3 className='font-bold text-2xl pb-3'>Trending Collection</h3>
       <p>Check Our Weekly updated Trending Collection.</p>
      </div> 
-    <div className='grid grid-cols-3 gap-5 mt-13'>
+    <div className='grid grid-cols-3 gap-5 mt-13 px-35'>
       <div className=''>
         <img src="/Primary-Photo-Placeholder.png" alt="Dog Avatar" />
        <div className='flex gap-6 h-21 mt-3'>
@@ -51,7 +53,7 @@ function section() {
         </div>
      </div>
     </div>
-    <div className='mt-20'>
+    <div className='mt-20 px-35'>
       <h2 className='font-bold pb-2 text-2xl'>Top Creators</h2>
       <div className='flex justify-between items-center'>
            <p className='text-sm'>Checkout Top Rated Creators On The NFT Marketplace</p>
@@ -61,6 +63,7 @@ function section() {
       <div>
         <Cards/>
       </div>
+    </div>
       <div>
         <h3 className='font-bold text-3xl pb-3'>Discover More NFTs</h3>
         <div className='flex justify-between items-center pb-15'>
@@ -70,25 +73,24 @@ function section() {
         </div>
         <Bigcards/>
       </div>
-      <div>
-
-      </div>
-      <div className='mt-25 '>
+       <div>
+          <Branch/>
+        </div>
+      <div className='mt-25 px-35'>
         <p>How It Works</p>
         <p>Find Out How To Get Started</p>
         <Prompt/>
-      </div>
-      <div className='flex mt-30 gap-10 items-center bg-gray-600 rounded-3xl h-90'>
-        <div className=''>
-          <img src="/Photo.png" alt="astronut" className='px-15 h-70'/>
-        </div>
-        <div className=''>
-          <h4 className='text-3xl font-bold pb-5'>Join Our Weekly <br/>Digest</h4>
-          <p className='pb-5'>Get Exclusive Promotions & Updates <br/>Straight To Your Inbox</p>
-        </div>
+        <div className='flex mt-30 gap-10 items-center bg-gray-600 rounded-3xl h-90'>
+           <div className=''>
+            <img src="/Photo.png" alt="astronut" className='px-15 h-70'/>
+          </div>
+          <div className=''>
+             <h4 className='text-3xl font-bold pb-5'>Join Our Weekly <br/>Digest</h4>
+            <p className='pb-5'>Get Exclusive Promotions & Updates <br/>Straight To Your Inbox</p>
+          </div>
+       </div>
       </div>
 
-    </div>
   </div>
   
  
