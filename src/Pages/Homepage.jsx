@@ -6,7 +6,7 @@ import Homehero from "../components/homehero";
 
 function Homepage() {
   return (
-    <div>
+    <div className="bg-[#3B3B3B]">
       <Navbar />
       <Homehero />
       <Section />
