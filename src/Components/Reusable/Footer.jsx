@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Footer() {
   return (
-    <div className="bg-[#3B3B3B] mt-5">
+    <div className="bg-[#2B2B2B] mt-5">
       <footer className="px-30 flex text-white justify-between pt-30">
         <div className="text-[#CCCCCC]">
           <img src="public/Images/Logo.png" alt="" />

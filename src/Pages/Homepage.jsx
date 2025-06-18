@@ -1,5 +1,5 @@
 import React from "react";
-import Navbar from "../Components/Reusable/Nav";
+import Navbar from "../components/Reusable/Nav";
 import Section from "../components/section";
 import Footer from "../components/Reusable/Footer";
 import Homehero from "../components/homehero";
