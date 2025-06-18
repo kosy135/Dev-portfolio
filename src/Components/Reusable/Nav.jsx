@@ -10,9 +10,13 @@ function Navbar() {
         </div>
         <div>
           <ul className="flex gap-7 items-center">
-            <li>Marketplace</li>
+            <Link to='/Marketplace'>
+            <button className='hover:bg-purple-500 hover:font-bold hover:px-5 hover:py-3 hover:rounded-2xl'>Marketplace</button>
+            </Link>
             <li>Rankings</li>
-            <li>Connect a wallet</li>
+            <Link to='/Connectwallet'>
+            <button className='hover:bg-purple-500 hover:font-bold hover:px-5 hover:py-3 hover:rounded-2xl'>Connect a wallet</button>
+            </Link>
             <Link to='/signup'>
               <button className="bg-[#A259FF] h-10 w-20 rounded-3xl flex w-30 items-center pl-5"> <img src="public/Images/User.png" className="h-5" alt="" />sign up</button>
             </Link>
