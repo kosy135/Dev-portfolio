@@ -13,7 +13,7 @@ function prompt() {
         {steps.map((step) =>(
             <div
             key={step}
-            className='grid bg-gray-600 place-items-center text-center px-5 rounded-2xl'
+            className='grid bg-[#3B3B3B] place-items-center text-center px-5 rounded-2xl'
             >
                 <img src={step.img} alt="" />
                 <h4 className='font-bold pb-1'>{step.CTA}</h4>

@@ -6,13 +6,16 @@ import Homehero from "../components/homehero";
 
 function Homepage() {
   return (
-    <div className="bg-[#3B3B3B]">
-      <Navbar />
-      <Homehero />
-      <Section />
-      <Footer />
+    <div className="bg-black">
+      <div className="bg-[#2B2B2B] mx-5">
+        <Navbar />
+        <Homehero />
+        <Section />
+        <Footer />
+      </div>
     </div>
   );
 }
 
 export default Homepage;
+
