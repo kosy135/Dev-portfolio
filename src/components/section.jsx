@@ -64,7 +64,7 @@ function section() {
         <Cards/>
       </div>
     </div>
-      <div>
+      <div className='-ml-5 -mr-5'>
         <h3 className='font-bold text-3xl pb-3'>Discover More NFTs</h3>
         <div className='flex justify-between items-center pb-15'>
           <p className='text-sm'>Explore New Trending NFTs</p>
@@ -80,7 +80,7 @@ function section() {
         <p>How It Works</p>
         <p>Find Out How To Get Started</p>
         <Prompt/>
-        <div className='flex mt-30 gap-10 items-center bg-gray-600 rounded-3xl h-90'>
+        <div className='flex mt-30 gap-10 items-center bg-[#3B3B3B] rounded-3xl h-90'>
            <div className=''>
             <img src="/Photo.png" alt="astronut" className='px-15 h-70'/>
           </div>

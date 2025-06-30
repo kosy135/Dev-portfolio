@@ -21,7 +21,7 @@ import React from 'react'
         {creators.map((creator)=>(
             <div
             key={creator}
-            className='bg-gray-500 rounded-2xl mt-10 pb-5'>
+            className='bg-[#3B3B3B] rounded-2xl mt-10 pb-5'>
                 <div className='bg-[#2B2B2B] w-5 h-5 rounded-full text-sm ml-7 mt-4 grid place-items-center'>{creator.id}</div>
                 <div className='grid place-items-center p-4'>
                     <img src={creator.img} alt="Artist-avatar" className=''/>

@@ -20,7 +20,7 @@ import React from 'react'
         </div>
         <div className=''>
           <img src="/Image.Placeholder.png" alt="Image Placeholder" className='h-90'/>
-          <div className='text-white pt-4 bg-gray-600 px-4 rounded-b-xl'>
+          <div className='text-white pt-4 bg-[#3B3B3B] px-4 rounded-b-xl'>
             <p>Space Walking</p>
             <div className='flex items-center py-4 gap-4'>
               <img src="/Avatar-Placeholder.png" alt="Avatar" className='h-5'/>

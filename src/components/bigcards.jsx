@@ -14,7 +14,7 @@ import React from 'react'
       {nfts.map((nft) =>(
         <div
         key={nft}
-        className='bg-gray-600 rounded-2xl'>
+        className='bg-[#3B3B3B] rounded-2xl'>
           <img src={nft.img} alt=''/>
         <div className='px-6 mt-5' >
           <h3 className='font-bold text-2xl pb-2'>{nft.name}</h3>
